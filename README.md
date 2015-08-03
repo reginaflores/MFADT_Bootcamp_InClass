@@ -23,7 +23,7 @@ Welcome to **2015 Bootcamp Section A**, [here](https://github.com/reginaflores/M
 |  11  | (Aug 17) | Libraries and Pixel Manipulation            |
 |  12  | (Aug 18) | Final project workshop                    |
 |  13  | (Aug 19) | Final project workshop                    |
-|  14  | (Aug 20) | Final project workshop                    |
+|  14  | (Aug 20) | Final project presentation - In Class Crits                 |
 |  15  | (Aug 21) | FINAL PROJECT PRESENTATION DAY                            |
 
 
