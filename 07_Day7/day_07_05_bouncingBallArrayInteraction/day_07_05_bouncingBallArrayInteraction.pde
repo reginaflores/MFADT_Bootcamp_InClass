@@ -30,13 +30,13 @@ void setup() {
     speedX[i] = int(random(-5, 5));
     speedY[i] = int(random(-5, 5));
 
-    // //add speed to balls with 0 initial speed
-    // if (speedX[i] == 0) {
-    //   speedX[i] = 1;
-    // }
-    // if (speedY[i] == 0) {
-    //   speedY[i] = 1;
-    // }    
+    //add speed to balls with 0 initial speed
+    if (speedX[i] == 0) {
+      speedX[i] = 1;
+    }
+    if (speedY[i] == 0) {
+      speedY[i] = 1;
+    }    
 
     radii[i] = int(random(4, 10));
 
@@ -109,5 +109,9 @@ void ballInteraction(){
     if (dist(ballsX[i], ballsY[i], mouseX, mouseY) < disappearRadius) {
       opacity[i] = 0;
     }
+  
+  if(mousePressed){
+    opacity[i]=255;
+  }
   }
 }
